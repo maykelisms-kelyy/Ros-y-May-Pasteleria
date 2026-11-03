@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450">
+  <defs>
+    <linearGradient id="bgV" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF5F7"/>
+      <stop offset="50%" stop-color="#FFE8EE"/>
+      <stop offset="100%" stop-color="#FCD5DE"/>
+    </linearGradient>
+    <linearGradient id="goldV" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F3E099"/>
+      <stop offset="50%" stop-color="#C5A059"/>
+      <stop offset="100%" stop-color="#9C772F"/>
+    </linearGradient>
+    <filter id="cakeGlowV" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#DF6C8A" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  <rect width="600" height="450" fill="url(#bgV)"/>
+
+  <!-- Cake Stand -->
+  <g transform="translate(160, 350)">
+    <ellipse cx="140" cy="20" rx="150" ry="16" fill="#FFFDF9" stroke="url(#goldV)" stroke-width="2"/>
+    <path d="M120 20 L125 55 L155 55 L160 20 Z" fill="#FFFDF9" stroke="url(#goldV)" stroke-width="1.5"/>
+    <ellipse cx="140" cy="55" rx="60" ry="10" fill="url(#goldV)"/>
+  </g>
+
+  <!-- Vintage Coquette Cake -->
+  <g filter="url(#cakeGlowV)">
+    <!-- Base Cake Cylinder -->
+    <rect x="180" y="190" width="240" height="160" rx="20" fill="#FFFDF9" stroke="#F8B4C4" stroke-width="2"/>
+    
+    <!-- Top Oval -->
+    <ellipse cx="300" cy="190" rx="120" ry="32" fill="#FFE5EC" stroke="#F8B4C4" stroke-width="2"/>
+
+    <!-- Piped Ruffles around top -->
+    <path d="M185 190 Q195 205 205 190 Q215 205 225 190 Q235 205 245 190 Q255 205 265 190 Q275 205 285 190 Q295 205 305 190 Q315 205 325 190 Q335 205 345 190 Q355 205 365 190 Q375 205 385 190 Q395 205 405 190 Q415 205 415 190" stroke="#DF6C8A" stroke-width="3" fill="none"/>
+
+    <!-- Swags / Garlands on front -->
+    <path d="M190 230 Q240 270 290 230 Q340 270 390 230" stroke="#F8B4C4" stroke-width="4" fill="none"/>
+    <path d="M190 230 Q240 280 290 230 Q340 280 390 230" stroke="#DF6C8A" stroke-width="2" fill="none" stroke-dasharray="2,3"/>
+
+    <path d="M210 280 Q250 315 290 280 Q330 315 370 280" stroke="#F8B4C4" stroke-width="3.5" fill="none"/>
+
+    <!-- Piped Shell Border at bottom -->
+    <path d="M182 345 Q192 335 202 345 Q212 335 222 345 Q232 335 242 345 Q252 335 262 345 Q272 335 282 345 Q292 335 302 345 Q312 335 322 345 Q332 335 342 345 Q352 335 362 345 Q372 335 382 345 Q392 335 402 345 Q412 335 418 345" stroke="#DF6C8A" stroke-width="3" fill="none"/>
+
+    <!-- Fondant Ribbons / Bows -->
+    <!-- Bow Center -->
+    <g transform="translate(290, 222)">
+      <circle cx="0" cy="0" r="4" fill="#DF6C8A"/>
+      <path d="M-4 -2 C-14 -12, -18 4, -4 0" fill="#DF6C8A"/>
+      <path d="M4 -2 C14 -12, 18 4, 4 0" fill="#DF6C8A"/>
+      <path d="M-2 2 L-6 12" stroke="#DF6C8A" stroke-width="2"/>
+      <path d="M2 2 L6 12" stroke="#DF6C8A" stroke-width="2"/>
+    </g>
+
+    <!-- Fresh Cherries & Cream Dollops on top -->
+    <g transform="translate(300, 180)">
+      <!-- Cream rosettes -->
+      <circle cx="-60" cy="-6" r="10" fill="#FFFDF9" stroke="#F8B4C4" stroke-width="1.5"/>
+      <circle cx="-20" cy="-14" r="10" fill="#FFFDF9" stroke="#F8B4C4" stroke-width="1.5"/>
+      <circle cx="20" cy="-14" r="10" fill="#FFFDF9" stroke="#F8B4C4" stroke-width="1.5"/>
+      <circle cx="60" cy="-6" r="10" fill="#FFFDF9" stroke="#F8B4C4" stroke-width="1.5"/>
+      <circle cx="0" cy="5" r="12" fill="#FFFDF9" stroke="#F8B4C4" stroke-width="1.5"/>
+
+      <!-- Glossy Cherries -->
+      <circle cx="-60" cy="-12" r="7" fill="#C9184A"/>
+      <circle cx="-62" cy="-14" r="2" fill="#FFFDF9"/>
+      <path d="M-60 -19 Q-55 -30 -50 -32" stroke="#588157" stroke-width="1.5" fill="none"/>
+
+      <circle cx="0" cy="-1" r="8" fill="#C9184A"/>
+      <circle cx="-2" cy="-3" r="2.5" fill="#FFFDF9"/>
+      <path d="M0 -9 Q8 -22 15 -24" stroke="#588157" stroke-width="1.5" fill="none"/>
+
+      <circle cx="60" cy="-12" r="7" fill="#C9184A"/>
+      <circle cx="58" cy="-14" r="2" fill="#FFFDF9"/>
+      <path d="M60 -19 Q65 -30 70 -32" stroke="#588157" stroke-width="1.5" fill="none"/>
+    </g>
+
+    <!-- Gold Pearl Accents -->
+    <circle cx="240" cy="245" r="3" fill="url(#goldV)"/>
+    <circle cx="340" cy="245" r="3" fill="url(#goldV)"/>
+    <circle cx="290" cy="295" r="3.5" fill="url(#goldV)"/>
+  </g>
+</svg>
+

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450">
+  <defs>
+    <linearGradient id="bgBt" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFDF9"/>
+      <stop offset="60%" stop-color="#FFF0F5"/>
+      <stop offset="100%" stop-color="#FCE4EC"/>
+    </linearGradient>
+    <linearGradient id="goldBt" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F3E099"/>
+      <stop offset="50%" stop-color="#C5A059"/>
+      <stop offset="100%" stop-color="#9C772F"/>
+    </linearGradient>
+    <filter id="cakeGlowBt" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#DF6C8A" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  <rect width="600" height="450" fill="url(#bgBt)"/>
+
+  <!-- Bento Box / Kraft Paper base container -->
+  <g transform="translate(150, 150)">
+    <!-- Bento open box bottom -->
+    <polygon points="20,190 280,190 320,130 -20,130" fill="#EAD7C3" stroke="#C5A059" stroke-width="1.5"/>
+    <polygon points="-20,130 320,130 300,70 0,70" fill="#F4E8DB"/>
+    <!-- Wax paper ruffled edges -->
+    <path d="M-10 110 Q10 95 30 110 Q50 95 70 110 Q90 95 110 110 Q130 95 150 110 Q170 95 190 110 Q210 95 230 110 Q250 95 270 110 Q290 95 310 110" fill="none" stroke="#FFFDF9" stroke-width="8"/>
+  </g>
+
+  <!-- Bento Cake (Minimalist Pastel Korean style) -->
+  <g filter="url(#cakeGlowBt)">
+    <rect x="210" y="210" width="180" height="110" rx="20" fill="#FCE4EC" stroke="#F8B4C4" stroke-width="2"/>
+    <ellipse cx="300" cy="210" rx="90" ry="26" fill="#FFFDF9" stroke="#F8B4C4" stroke-width="1.5"/>
+
+    <!-- Piped beaded border on top edge -->
+    <circle cx="215" cy="210" r="5" fill="#F8B4C4"/>
+    <circle cx="230" cy="204" r="5" fill="#F8B4C4"/>
+    <circle cx="250" cy="198" r="5" fill="#F8B4C4"/>
+    <circle cx="275" cy="194" r="5" fill="#F8B4C4"/>
+    <circle cx="300" cy="193" r="5" fill="#F8B4C4"/>
+    <circle cx="325" cy="194" r="5" fill="#F8B4C4"/>
+    <circle cx="350" cy="198" r="5" fill="#F8B4C4"/>
+    <circle cx="370" cy="204" r="5" fill="#F8B4C4"/>
+    <circle cx="385" cy="210" r="5" fill="#F8B4C4"/>
+    <circle cx="375" cy="218" r="5" fill="#F8B4C4"/>
+    <circle cx="355" cy="225" r="5" fill="#F8B4C4"/>
+    <circle cx="330" cy="230" r="5" fill="#F8B4C4"/>
+    <circle cx="300" cy="232" r="5" fill="#F8B4C4"/>
+    <circle cx="270" cy="230" r="5" fill="#F8B4C4"/>
+    <circle cx="245" cy="225" r="5" fill="#F8B4C4"/>
+    <circle cx="225" cy="218" r="5" fill="#F8B4C4"/>
+
+    <!-- Handwritten piped lettering in cursive -->
+    <!-- Sweet Heart piped in red/pink -->
+    <path d="M300 206 C296 200, 288 205, 294 213 L300 219 L306 213 C312 205, 304 200, 300 206 Z" fill="#DF6C8A"/>
+    
+    <text x="300" y="222" font-family="'Great Vibes', cursive, 'Playfair Display'" font-size="14" fill="#3B2E2A" text-anchor="middle" font-weight="bold">Happy Day</text>
+
+    <!-- Tiny decorative piped sprinkles around -->
+    <rect x="250" y="210" width="3" height="7" rx="1.5" fill="url(#goldBt)" transform="rotate(25 250 210)"/>
+    <rect x="345" y="208" width="3" height="7" rx="1.5" fill="#F8B4C4" transform="rotate(-35 345 208)"/>
+    <rect x="275" y="218" width="3" height="6" rx="1.5" fill="#C5A059" transform="rotate(45 275 218)"/>
+    <rect x="325" y="218" width="3" height="6" rx="1.5" fill="#DF6C8A" transform="rotate(-20 325 218)"/>
+  </g>
+</svg>
+

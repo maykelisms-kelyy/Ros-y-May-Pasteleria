@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450">
+  <defs>
+    <linearGradient id="bgL" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFDF9"/>
+      <stop offset="50%" stop-color="#FFFBEB"/>
+      <stop offset="100%" stop-color="#FEF3C7"/>
+    </linearGradient>
+    <linearGradient id="crustG" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E9C46A"/>
+      <stop offset="50%" stop-color="#D4A373"/>
+      <stop offset="100%" stop-color="#BC6C25"/>
+    </linearGradient>
+    <linearGradient id="toastedM" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#C58940"/>
+      <stop offset="35%" stop-color="#E5BA73"/>
+      <stop offset="70%" stop-color="#FFFDF9"/>
+    </linearGradient>
+    <linearGradient id="goldL" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F3E099"/>
+      <stop offset="50%" stop-color="#C5A059"/>
+      <stop offset="100%" stop-color="#9C772F"/>
+    </linearGradient>
+    <filter id="cakeGlowL" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#C58940" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  <rect width="600" height="450" fill="url(#bgL)"/>
+
+  <!-- Cake Stand -->
+  <ellipse cx="300" cy="350" rx="150" ry="16" fill="#FFFDF9" stroke="url(#goldL)" stroke-width="2"/>
+
+  <!-- Lemon Meyer Tart with Torched Meringue Peaks -->
+  <g filter="url(#cakeGlowL)">
+    <!-- Golden Pastry Crust (Fluted edge) -->
+    <ellipse cx="300" cy="300" rx="140" ry="32" fill="url(#crustG)"/>
+    <path d="M160 300 C160 330, 440 330, 440 300 L440 280 C440 250, 160 250, 160 280 Z" fill="url(#crustG)"/>
+    <ellipse cx="300" cy="275" rx="136" ry="28" fill="#F4A261"/>
+
+    <!-- Tangy Lemon Curd Layer -->
+    <ellipse cx="300" cy="270" rx="126" ry="24" fill="#FFD166"/>
+
+    <!-- Torched Swiss Meringue Peaks -->
+    <!-- Peak 1 -->
+    <path d="M220 260 C210 240, 220 210, 230 200 C240 215, 240 245, 235 260 Z" fill="url(#toastedM)"/>
+    <circle cx="230" cy="200" r="3" fill="#A75D5D"/>
+
+    <!-- Peak 2 (Center High) -->
+    <path d="M280 250 C270 210, 290 160, 305 145 C320 170, 320 220, 310 250 Z" fill="url(#toastedM)"/>
+    <circle cx="305" cy="145" r="4" fill="#8C4A28"/>
+
+    <!-- Peak 3 -->
+    <path d="M340 260 C335 230, 355 190, 370 185 C380 205, 385 240, 375 260 Z" fill="url(#toastedM)"/>
+    <circle cx="370" cy="185" r="3" fill="#A75D5D"/>
+
+    <!-- Peak 4 (Front Left) -->
+    <path d="M250 270 C245 250, 255 225, 265 215 C275 230, 275 255, 270 270 Z" fill="url(#toastedM)"/>
+    
+    <!-- Peak 5 (Front Right) -->
+    <path d="M315 270 C310 250, 325 220, 335 210 C345 225, 345 255, 340 270 Z" fill="url(#toastedM)"/>
+
+    <!-- Lemon Slices / Curls & Mint -->
+    <ellipse cx="250" cy="265" rx="18" ry="10" fill="#FFE494" stroke="#F4A261" stroke-width="2" transform="rotate(-20 250 265)"/>
+    <circle cx="360" cy="260" r="6" fill="#588157"/>
+    <ellipse cx="365" cy="255" rx="8" ry="4" fill="#74A892" transform="rotate(25 365 255)"/>
+
+    <!-- Edible Pansy / Violet Flowers -->
+    <circle cx="210" cy="275" r="8" fill="#B5838D"/>
+    <circle cx="210" cy="275" r="3" fill="#FFD166"/>
+  </g>
+</svg>
+

@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 450" width="400" height="450">
+  <defs>
+    <linearGradient id="bgGradR" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF5F7"/>
+      <stop offset="60%" stop-color="#FCE4EC"/>
+      <stop offset="100%" stop-color="#F8B4C4"/>
+    </linearGradient>
+    <linearGradient id="goldGradR" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F2DF8E"/>
+      <stop offset="50%" stop-color="#C5A059"/>
+      <stop offset="100%" stop-color="#9E782F"/>
+    </linearGradient>
+    <linearGradient id="chefApron" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#FFF0F5"/>
+    </linearGradient>
+    <filter id="shadowR" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#DF6C8A" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Background Base with arch -->
+  <rect x="0" y="0" width="400" height="450" rx="36" fill="url(#bgGradR)"/>
+  
+  <!-- Outer Gold Decorative Filigree Ring -->
+  <circle cx="200" cy="210" r="165" fill="none" stroke="url(#goldGradR)" stroke-width="2.5" stroke-dasharray="6,4"/>
+  <circle cx="200" cy="210" r="156" fill="#FFF9F5" stroke="#F8B4C4" stroke-width="1.5"/>
+
+  <!-- Character Group: Roscelis (Chef Pastelera) -->
+  <g transform="translate(0, 5)">
+    <!-- Aura / Soft Warmth -->
+    <circle cx="200" cy="180" r="115" fill="#FFE5EC" opacity="0.6"/>
+
+    <!-- Hair Back -->
+    <path d="M120 180 C120 110, 280 110, 280 180 C280 240, 260 260, 260 270 C240 280, 220 285, 200 285 C180 285, 160 280, 140 270 C140 260, 120 240, 120 180 Z" fill="#4A2E18"/>
+
+    <!-- Neck & Shoulders -->
+    <path d="M180 230 L220 230 L225 280 L175 280 Z" fill="#E8B99A"/>
+    <!-- Chef Jacket / Apron -->
+    <path d="M135 280 C155 265, 245 265, 265 280 L295 410 C295 425, 105 425, 105 410 Z" fill="url(#chefApron)" stroke="#E8B4B8" stroke-width="2"/>
+    <!-- Apron Straps / Pink Accents -->
+    <path d="M165 275 L160 410" stroke="#DF6C8A" stroke-width="3" stroke-linecap="round"/>
+    <path d="M235 275 L240 410" stroke="#DF6C8A" stroke-width="3" stroke-linecap="round"/>
+    <!-- Pink Chef Scarf / Necktie -->
+    <path d="M175 270 C185 285, 215 285, 225 270 C215 295, 185 295, 175 270 Z" fill="#DF6C8A"/>
+    <circle cx="200" cy="288" r="5" fill="url(#goldGradR)"/>
+
+    <!-- Head & Face -->
+    <ellipse cx="200" cy="195" rx="52" ry="60" fill="#FADBC8"/>
+    <!-- Cheeks Blush -->
+    <ellipse cx="170" cy="210" rx="14" ry="8" fill="#F8B4C4" opacity="0.7"/>
+    <ellipse cx="230" cy="210" rx="14" ry="8" fill="#F8B4C4" opacity="0.7"/>
+    <!-- Eyes - Joyful & warm -->
+    <path d="M166 185 C172 180, 182 180, 188 185" stroke="#3B2E2A" stroke-width="3" stroke-linecap="round" fill="none"/>
+    <path d="M212 185 C218 180, 228 180, 234 185" stroke="#3B2E2A" stroke-width="3" stroke-linecap="round" fill="none"/>
+    <!-- Eyelashes -->
+    <path d="M188 183 L193 180" stroke="#3B2E2A" stroke-width="2" stroke-linecap="round"/>
+    <path d="M234 183 L239 180" stroke="#3B2E2A" stroke-width="2" stroke-linecap="round"/>
+    <!-- Eyebrows -->
+    <path d="M165 174 C173 170, 183 171, 189 175" stroke="#4A2E18" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+    <path d="M211 175 C217 171, 227 170, 235 174" stroke="#4A2E18" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+    <!-- Nose -->
+    <path d="M198 198 Q200 203 203 201" stroke="#DCA282" stroke-width="2" stroke-linecap="round" fill="none"/>
+    <!-- Gentle Sweet Smile -->
+    <path d="M185 218 C192 228, 208 228, 215 218" stroke="#DF6C8A" stroke-width="3" stroke-linecap="round" fill="#FFFFFF"/>
+    
+    <!-- Hair Front Waves -->
+    <path d="M148 180 C148 140, 180 135, 200 148 C215 135, 252 140, 252 180 C245 160, 230 155, 205 160 C175 155, 155 162, 148 180 Z" fill="#4A2E18"/>
+    <!-- Hair Strands -->
+    <path d="M148 185 C142 215, 148 245, 155 260" stroke="#4A2E18" stroke-width="6" stroke-linecap="round" fill="none"/>
+    <path d="M252 185 C258 215, 252 245, 245 260" stroke="#4A2E18" stroke-width="6" stroke-linecap="round" fill="none"/>
+
+    <!-- Chef Toque (Hat) -->
+    <g transform="translate(145, 60)" filter="url(#shadowR)">
+      <path d="M12 70 L98 70 L94 52 L16 52 Z" fill="#FFFFFF" stroke="#E8B4B8" stroke-width="1.5"/>
+      <!-- Gold Ribbon on Hat -->
+      <rect x="15" y="60" width="80" height="7" fill="url(#goldGradR)" rx="2"/>
+      <!-- Puffy Top -->
+      <path d="M16 52 C5 40, 10 15, 30 18 C35 5, 60 5, 70 18 C85 10, 100 30, 94 52 Z" fill="#FFFFFF" stroke="#E8B4B8" stroke-width="1.5"/>
+      <path d="M38 18 C40 38, 42 50, 42 52" stroke="#FFF0F5" stroke-width="2"/>
+      <path d="M68 18 C66 38, 64 50, 64 52" stroke="#FFF0F5" stroke-width="2"/>
+    </g>
+
+    <!-- Pastry Piping Bag / Whisk in Hand -->
+    <g transform="translate(245, 290)">
+      <!-- Piping bag -->
+      <polygon points="10,40 50,0 65,15 25,55" fill="#F8B4C4" stroke="url(#goldGradR)" stroke-width="1.5"/>
+      <path d="M50 0 C60 -10, 75 5, 65 15 Z" fill="#DF6C8A"/>
+      <!-- Piping tip (gold) -->
+      <polygon points="10,40 2,48 10,54 25,55" fill="url(#goldGradR)"/>
+      <!-- Swirl of sweet cream -->
+      <path d="M3 50 C-10 60, -2 75, -15 80" stroke="#FFFDF9" stroke-width="6" stroke-linecap="round" fill="none"/>
+    </g>
+
+    <!-- Delicate Whisk on Left -->
+    <g transform="translate(95, 305) rotate(-25)">
+      <line x1="20" y1="60" x2="20" y2="20" stroke="url(#goldGradR)" stroke-width="4" stroke-linecap="round"/>
+      <ellipse cx="20" cy="0" rx="10" ry="18" fill="none" stroke="url(#goldGradR)" stroke-width="2"/>
+      <ellipse cx="20" cy="0" rx="5" ry="18" fill="none" stroke="url(#goldGradR)" stroke-width="1.5"/>
+    </g>
+  </g>
+
+  <!-- Gold Role Banner at Bottom -->
+  <g transform="translate(50, 385)">
+    <rect x="0" y="0" width="300" height="46" rx="23" fill="#FFFDF9" stroke="url(#goldGradR)" stroke-width="2" filter="url(#shadowR)"/>
+    <text x="150" y="22" font-family="'Playfair Display', Georgia, serif" font-size="16" font-weight="700" fill="#3B2E2A" text-anchor="middle">Roscelis</text>
+    <text x="150" y="37" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="600" fill="#C5A059" text-anchor="middle" letter-spacing="1.5">CHEF PASTELERA &amp; CREACIÓN</text>
+  </g>
+
+  <!-- Little Golden Stars/Sparkles -->
+  <path d="M60 80 Q60 65 67 65 Q60 65 60 50 Q60 65 53 65 Q60 65 60 80 Z" fill="url(#goldGradR)"/>
+  <path d="M340 120 Q340 108 346 108 Q340 108 340 96 Q340 108 334 108 Q340 108 340 120 Z" fill="url(#goldGradR)"/>
+</svg>
+

@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450">
+  <defs>
+    <linearGradient id="bgC" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFDF9"/>
+      <stop offset="60%" stop-color="#F5EFE6"/>
+      <stop offset="100%" stop-color="#EADDCB"/>
+    </linearGradient>
+    <linearGradient id="chocDark" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4A2511"/>
+      <stop offset="100%" stop-color="#2D1508"/>
+    </linearGradient>
+    <linearGradient id="goldC" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F3E099"/>
+      <stop offset="50%" stop-color="#C5A059"/>
+      <stop offset="100%" stop-color="#9C772F"/>
+    </linearGradient>
+    <filter id="cakeGlowC" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#4A2511" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <rect width="600" height="450" fill="url(#bgC)"/>
+
+  <!-- Cake Stand -->
+  <g transform="translate(160, 360)">
+    <ellipse cx="140" cy="15" rx="150" ry="15" fill="url(#goldC)"/>
+    <path d="M125 15 L130 45 L150 45 L155 15 Z" fill="url(#goldC)"/>
+    <ellipse cx="140" cy="45" rx="50" ry="8" fill="url(#goldC)"/>
+  </g>
+
+  <!-- Chocolate Cake with Belgian Drip -->
+  <g filter="url(#cakeGlowC)">
+    <!-- Base Ivory Cake -->
+    <rect x="190" y="180" width="220" height="180" rx="16" fill="#FFFDF9" stroke="#E5D6C5" stroke-width="2"/>
+    <ellipse cx="300" cy="180" rx="110" ry="28" fill="#FFFBF5"/>
+
+    <!-- Rich Dark Chocolate Drips flowing down -->
+    <path d="M190 180 
+             C190 220, 202 240, 205 210 
+             C210 260, 218 275, 222 215 
+             C228 235, 235 245, 240 210 
+             C246 270, 258 290, 262 215 
+             C268 230, 276 240, 282 210 
+             C288 285, 300 305, 305 210 
+             C312 245, 322 255, 326 215 
+             C332 290, 344 315, 348 210 
+             C354 240, 362 250, 368 215 
+             C375 270, 388 285, 392 215 
+             C398 235, 404 240, 410 180 Z" fill="url(#chocDark)"/>
+    <ellipse cx="300" cy="180" rx="110" ry="28" fill="url(#chocDark)"/>
+
+    <!-- Edible Gold Flakes on Chocolate -->
+    <path d="M260 175 L266 172 L268 178 L262 180 Z" fill="url(#goldC)"/>
+    <path d="M330 170 L338 168 L335 174 L328 175 Z" fill="url(#goldC)"/>
+    <path d="M295 240 L300 238 L298 245 Z" fill="url(#goldC)"/>
+    <path d="M345 250 L350 248 L348 255 Z" fill="url(#goldC)"/>
+
+    <!-- Fresh Raspberries, Blackberries, Macarons on Top -->
+    <!-- Macaron 1 (Gold/Dusty Rose) -->
+    <g transform="translate(250, 160) rotate(-15)">
+      <ellipse cx="0" cy="0" rx="18" ry="8" fill="#F8B4C4"/>
+      <rect x="-18" y="0" width="36" height="5" fill="#DF6C8A"/>
+      <ellipse cx="0" cy="5" rx="18" ry="8" fill="#F8B4C4"/>
+    </g>
+
+    <!-- Macaron 2 (Cream Gold) -->
+    <g transform="translate(340, 155) rotate(20)">
+      <ellipse cx="0" cy="0" rx="18" ry="8" fill="#F5E5C9"/>
+      <rect x="-18" y="0" width="36" height="5" fill="url(#goldC)"/>
+      <ellipse cx="0" cy="5" rx="18" ry="8" fill="#F5E5C9"/>
+    </g>
+
+    <!-- Raspberries -->
+    <circle cx="285" cy="155" r="11" fill="#C9184A"/>
+    <circle cx="285" cy="155" r="9" fill="#A4133C"/>
+    <circle cx="310" cy="150" r="13" fill="#C9184A"/>
+    <circle cx="310" cy="150" r="11" fill="#A4133C"/>
+    <circle cx="295" cy="140" r="10" fill="#C9184A"/>
+
+    <!-- Fresh Figs slice -->
+    <path d="M315 155 Q335 130 330 160 Z" fill="#800E13"/>
+    <path d="M318 153 Q330 135 328 158 Z" fill="#FFCCD5"/>
+  </g>
+</svg>
+

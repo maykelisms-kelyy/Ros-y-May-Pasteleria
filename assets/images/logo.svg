@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 100" width="300" height="100">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E6CA65" />
+      <stop offset="50%" stop-color="#C5A059" />
+      <stop offset="100%" stop-color="#9E782F" />
+    </linearGradient>
+    <linearGradient id="pinkSoft" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF0F3" />
+      <stop offset="100%" stop-color="#FCE4EC" />
+    </linearGradient>
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#C5A059" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Circular Emblem Icon -->
+  <g transform="translate(10, 8)" filter="url(#softGlow)">
+    <circle cx="42" cy="42" r="38" fill="url(#pinkSoft)" stroke="url(#goldGrad)" stroke-width="2"/>
+    <circle cx="42" cy="42" r="34" fill="none" stroke="url(#goldGrad)" stroke-dasharray="2,2" stroke-width="1"/>
+    
+    <!-- Stylized Cake & Whisk Silhouette -->
+    <!-- Tier 1 -->
+    <rect x="26" y="52" width="32" height="14" rx="3" fill="#DF6C8A"/>
+    <!-- Tier 2 -->
+    <rect x="30" y="40" width="24" height="12" rx="2.5" fill="#F8B4C4"/>
+    <!-- Tier 3 -->
+    <rect x="35" y="30" width="14" height="10" rx="2" fill="#FFFDF9"/>
+    <!-- Cake Topper Cherry/Heart -->
+    <circle cx="42" cy="24" r="3.5" fill="#C5A059"/>
+    <!-- Cake Base Stand -->
+    <path d="M22 66 Q42 63 62 66 L60 69 Q42 67 24 69 Z" fill="url(#goldGrad)"/>
+    <!-- Sparkles -->
+    <path d="M22 34 Q22 28 25 28 Q22 28 22 22 Q22 28 19 28 Q22 28 22 34 Z" fill="url(#goldGrad)"/>
+    <path d="M62 38 Q62 33 64 33 Q62 33 62 28 Q62 33 60 33 Q62 33 62 38 Z" fill="url(#goldGrad)"/>
+  </g>
+
+  <!-- Typography -->
+  <g transform="translate(100, 20)">
+    <!-- Main Script Accent -->
+    <text x="0" y="28" font-family="'Playfair Display', Georgia, serif" font-size="28" font-weight="700" fill="#3B2E2A" letter-spacing="1">Ros &amp; May</text>
+    <!-- Tagline Subtitle -->
+    <text x="2" y="48" font-family="'Plus Jakarta Sans', 'Segoe UI', sans-serif" font-size="9.5" font-weight="600" fill="#C5A059" letter-spacing="3.5" text-transform="uppercase">ATELIER DULCE</text>
+    <!-- Decorative Line -->
+    <path d="M125 45 L175 45" stroke="url(#goldGrad)" stroke-width="1" stroke-linecap="round"/>
+    <text x="2" y="62" font-family="'Playfair Display', Georgia, serif" font-size="10.5" font-style="italic" fill="#8C5A61" letter-spacing="0.5">Repostería &amp; Pastelería Artesanal</text>
+  </g>
+</svg>
+
